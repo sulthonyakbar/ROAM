@@ -7,21 +7,34 @@
     <title>Form Pengaduan</title>
 </head>
 <body>
-    <form action="">
+    <form action="" method="post">
         <label for="">Form Pengaduan</label>
         <div>
+            <label for="">Pilihan Pengaduan : </label>
+            <select name="pilihan" id="pilihan">
+                <option value="">Pilih Pengaduan</option>
+                <option value="lubang">Jalan Berlubang</option>
+                <option value="tutup">Penutupan Jalan</option>
+                <option value="perbaikan">Perbaikan Jalan</option>
+            </select>
+        </div>
+        <div>
             <label for="">Foto : </label>
-            <input type="file">
+            <input type="file" name="foto" id="foto">
+        </div>
+        <div>
+            <label for="">Waktu : </label>
+            <input type="time" name="waktu" id="waktu">
         </div>
         <div>
             <label for="">Tanggal : </label>
-            <input type="date">
+            <input type="date" name="tanggal" id="tanggal">
         </div>
         <div>
             <label for="">Deskripsi : </label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea name="deskripsi" id="deskripsi" cols="30" rows="10"></textarea>
         </div>
-        <input type="submit">
+        <input type="submit" name="submitpengaduan">
     </form>
 </body>
 </html>
