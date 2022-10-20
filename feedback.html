@@ -7,13 +7,21 @@
     <title>Feedback Form</title>
 </head>
 <body>
-    <form action="">
+    <form action="" method="post">
         <label for="">Feedback</label>
         <div>
-            <label for="">Kritik & saran : </label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <label for="">Kritik : </label>
+            <textarea name="kritik" id="kritik" cols="30" rows="10"></textarea>
         </div>
-        <input type="submit">
+        <div>
+            <label for="">Saran : </label>
+            <textarea name="saran" id="saran" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="">Rating : </label>
+            Kurang Memuaskan <input type="range" name="rating" id="rating" min="0" max="5" step="1"> Sangat Memuaskan
+        </div>
+        <input type="submit" name="feedback">
     </form>
 </body>
 </html>
