@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/index.css">
-    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/login.css">
+    <title>Sign In</title>
 </head>
 <body>
-    <div class="topnav">
-        <a class="active" href="index.html">ROAM</a>
-        <a href="pengaduan.html">Home</a>
-        <a href="pengaduan.html">Pengaduan</a>
-        <a href="detailmarking.html">Detail Marking</a>
-        <a href="feedback.html">Feedback</a>
-        <input type="text" name="search" placeholder="Search..">
-    </div>
+    <div class="container">
+    <form action="/HTML/home.html" method="get">
+        <h2>Sign In To, ROAM</h2>
+        <div>
+            <label for="">Username : </label>
+            <input type="text" name="username">
+        </div>
+        <div>
+            <label for="">Password : </label>
+            <input type="password" name="password">
+        </div>
+        <button name="login" type="submit">Sign In</button>
+        <div>
+        Don't have an account? <a href="/HTML/registration.html">Register</a>
+        </div>
+    </form>
+</div>
 </body>
 </html>

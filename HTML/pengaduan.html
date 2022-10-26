@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+<link rel="import" href="../navbar.html">
+    <link rel="stylesheet" href="../CSS/pengaduan.css">
     <title>Form Pengaduan</title>
 </head>
 <body>
+    <div class="container">
     <form action="" method="post">
-        <label for="">Form Pengaduan</label>
+        <h2>Form Pengaduan</h2>        
         <div>
             <label for="">Pilihan Pengaduan : </label>
             <select name="pilihan" id="pilihan">
@@ -34,7 +39,8 @@
             <label for="">Deskripsi : </label>
             <textarea name="deskripsi" id="deskripsi" cols="30" rows="10"></textarea>
         </div>
-        <input type="submit" name="submitpengaduan">
+        <button name="submitpengaduan">Submit</button>
     </form>
+    </div>
 </body>
 </html>

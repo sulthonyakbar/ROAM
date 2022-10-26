@@ -12,12 +12,13 @@ body{
 }
 
 .container{
+    top: 0;
     background-color: #E8DFCA;
     padding-right: 30px;
     padding-left: 30px;
     border-radius: 8px;
-    height: 600px;
-    width: 502px;
+    height: 850px;
+    width: 800px;
 }
 
 form{
@@ -93,4 +94,17 @@ textarea {
     resize: none;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
+}
+
+.mapouter{
+    width: 100px;
+    height: 100px;
+}
+
+input, #koordinat1, #koordinat2{
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    height: 20px;
+    padding-left: 8px;
+}
