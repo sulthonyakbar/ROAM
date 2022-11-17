@@ -11,29 +11,30 @@
 </head>
 <body>
     <div class="container">
-        <form action="home.html"  method="GET">
+        <form action="" id="form-register" method="get">
             <h2>Sign Up To, ROAM</h2>
             <div>
                 <label for="">Nama : </label>
-                <input type="text"  name="nama">
+                <input type="text"  name="nama" id="nama">
             </div>
             <div>
                 <label for="">Username : </label>
-                <input type="text"  name="username">
+                <input type="text"  name="username" id="username">
             </div>
             <div>
                 <label for="">Password : </label>
-                <input type="password" name="password">
+                <input type="password" name="password" id="password">
             </div>
             <div>
                 <label for="">Re-enter Password : </label>
-                <input type="password" name="repassword">
+                <input type="password" name="repassword" id="repassword">
             </div>
-            <button name="signup">Submit</button>
+            <button name="register" id="btn-register" type="submit">Submit</button>
             <div>
                 Already have an account? <a href="../index.html">Login</a>
             </div>
         </form>
     </div>
+    <script src="../JS/user.js"></script>
 </body>
 </html>
