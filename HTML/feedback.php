@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-    <form id="form-feedback" action="" method="post">
+    <form id="form-feedback" action="../prosesFeedback.php" method="POST">
         <h2>Feedback</h2>
         <div>
             <label for="">Kritik : </label>
@@ -28,6 +28,6 @@
         <button name="feedback">Submit</button>
     </form>
     </div>
-    <script src="../JS/feedback.js"></script>
+    <!-- <script src="../JS/feedback.js"></script> -->
 </body>
 </html>

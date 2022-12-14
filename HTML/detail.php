@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-      <form id="form-detail" action="" method="post">  
+      <form id="form-detail" action="../prosesDetail.php" method="post">  
       <h2>Form Detail Marking</h2>
       <div class="mapouter">
           <div class="gmap_canvas">
@@ -34,6 +34,6 @@
           <button name="detail">Submit</button>
         </form>
         </div>
-<script src="../JS/detail.js"></script>
+<!-- <script src="../JS/detail.js"></script> -->
 </body>
 </html>

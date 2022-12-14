@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="" id="form-register" method="get">
+        <form action="" id="form-register" method="POST">
             <h2>Sign Up To, ROAM</h2>
             <div>
                 <label for="">Nama : </label>
@@ -35,6 +35,6 @@
             </div>
         </form>
     </div>
-    <script src="../JS/user.js"></script>
+    <!-- <script src="../JS/user.js"></script> -->
 </body>
 </html>
