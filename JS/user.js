@@ -21,27 +21,35 @@ let formLogin = document.getElementById('form-login');
 formLogin.addEventListener('submit', function (e) {
     e.preventDefault();
 
+    
     let username = document.getElementById('username').value;
     let password = document.getElementById('password').value;
+    alert('halo');
+    if(username != '' && password != '')
+    {
 
-    let login = new User(1, 'Aqil', username, password);
+        formLogin.submit();
+    }else{
+        alert('kosong');
+    }
+    // let login = new User(1, 'Aqil', username, password);
 
-    window.location.href = '../HTML/home.html';
-    console.log(login); 
+    // window.location.href = '../HTML/home.html';
+    // console.log(login); 
 });
 
 let formRegister = document.getElementById('form-register');
 
-formRegister.addEventListener('submit-register', function (r) {
-    r.preventDefault();
+// formRegister.addEventListener('submit-register', function (e) {
+//     e.preventDefault();
 
-    let nama = document.getElementById('nama').value;
-    let username = document.getElementById('username').value;
-    let password = document.getElementById('password').value;
-    let repassword = document.getElementById('repassword').value;
+//     let nama = document.getElementById('nama').value;
+//     let username = document.getElementById('username').value;
+//     let password = document.getElementById('password').value;
+//     let repassword = document.getElementById('repassword').value;
 
-    let register = new User(1, nama, username, password, repassword);
+//     let register = new User(1, nama, username, password, repassword);
 
-    window.location.href = '../HTML/home.html';
-    console.log(register); 
-});
+//     window.location.href = '../HTML/home.html';
+//     console.log(register); 
+// });

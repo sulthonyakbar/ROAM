@@ -45,13 +45,12 @@ button{
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 8px;
     background-color: black;
     color: white;
     border: none;
 }
-
-
 
 #username{
     border-radius: 8px;

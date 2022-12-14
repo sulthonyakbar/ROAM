@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container">
-    <form id="form-pengaduan" action="" method="post">
+    <form id="form-pengaduan" name="form-pengaduan" action="../prosesPengaduan.php" method="POST">
         <h2>Form Pengaduan</h2>        
         <div>
             <label for="">Pilihan Pengaduan : </label>
@@ -42,6 +42,7 @@
         <button name="submitpengaduan">Submit</button>
     </form>
     </div>
-    <script src="../JS/pengaduan.js"></script>
+    <!-- <script src="../JS/pengaduan.js"></script> -->
 </body>
 </html>
+
