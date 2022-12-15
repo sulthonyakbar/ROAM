@@ -1,5 +1,5 @@
 <?php 
-class prosesPengaduan {
+class ProsesPengaduan {
     public $pilihan,
             $foto,
             $waktu,
@@ -32,7 +32,7 @@ class prosesPengaduan {
     
 }
 
-$pengaduan = new prosesPengaduan("", "", "", "", "", "");
+$pengaduan = new ProsesPengaduan("", "", "", "", "", "");
 
 echo $pengaduan->addPengaduan();
 echo "<br>";
