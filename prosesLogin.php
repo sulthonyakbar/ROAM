@@ -1,5 +1,5 @@
 <?php 
-class prosesLogin {
+class ProsesLogin {
     public $username,
             $password;
 
@@ -14,7 +14,7 @@ class prosesLogin {
     
 }
 
-$login = new prosesLogin("", "");
+$login = new ProsesLogin("", "");
 
 echo $login->login()
 
