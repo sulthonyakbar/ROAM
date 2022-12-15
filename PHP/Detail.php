@@ -26,5 +26,5 @@ class Detail {
     //     return "$this->alamat, $this->koordinat1, $this->koordinat2";
     // }
     
-
+}
 ?>
