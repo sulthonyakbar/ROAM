@@ -1,5 +1,5 @@
 <?php 
-class prosesRegistrasi {
+class ProsesRegistrasi {
     public $nama,
             $username,
             $password,
@@ -18,7 +18,7 @@ class prosesRegistrasi {
     
 }
 
-$registrasi = new prosesRegistrasi("", "", "", "");
+$registrasi = new ProsesRegistrasi("", "", "", "");
 
 echo $registrasi->registrasi()
 
