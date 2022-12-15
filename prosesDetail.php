@@ -1,5 +1,5 @@
 <?php 
-class prosesDetail {
+class ProsesDetail {
     public $alamat,
             $koordinat1,
             $koordinat2;
@@ -28,7 +28,7 @@ class prosesDetail {
     
 }
 
-$detail = new prosesDetail("", "", "");
+$detail = new ProsesDetail("", "", "");
 
 echo $detail->addDetail();
 echo "<br>";
