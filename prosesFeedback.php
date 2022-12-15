@@ -1,5 +1,5 @@
 <?php 
-class prosesFeedback {
+class ProsesFeedback {
     public $kritik,
             $saran,
             $rating;
@@ -28,7 +28,7 @@ class prosesFeedback {
     
 }
 
-$feedback = new prosesFeedback("", "", "");
+$feedback = new ProsesFeedback("", "", "");
 
 echo $feedback->addFeedback();
 echo "<br>";
