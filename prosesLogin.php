@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php 
 class ProsesLogin {
     public $username,
@@ -21,4 +19,3 @@ $login = new ProsesLogin("", "");
 echo $login->login()
 
 ?>
->>>>>>> 05198d22f136171c922f06621cbc65761390a5db
