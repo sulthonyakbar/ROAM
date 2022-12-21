@@ -1,25 +1,10 @@
 <?php 
-class prosesRegistrasi {
-    public $nama,
-            $username,
-            $password,
-            $repassword;
+require("PHP/User.php");
 
-    public function __construct($nama, $username, $password, $repassword){
-        $this->nama = $nama;
-        $this->username = $username;
-        $this->password = $password;
-        $this->repassword = $repassword;
-    }
+$nama = $_POST['nama'];
+$username = $_POST['username'];
+$password = $_POST['password'];
 
-    public function registrasi(){
-        return "Registrasi";
-    }
-    
-}
-
-$registrasi = new prosesRegistrasi("", "", "", "");
-
-echo $registrasi->registrasi()
-
+$registrasi = new User($nama, $username, $password);
+$registrasi->Registrasi();
 ?>

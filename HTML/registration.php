@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="" id="form-register" method="POST">
+        <form action="../prosesRegistrasi.php" id="form-register" method="POST">
             <h2>Sign Up To, ROAM</h2>
             <div>
                 <label for="">Nama : </label>

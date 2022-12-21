@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-    <form action="" id="form-login" class="form-login" method="POST">
+    <form action="../prosesUser.php" id="form-login" class="form-login" method="POST">
         <h2>Sign In To, ROAM</h2>
         <div>
             <label for="">Username : </label>
