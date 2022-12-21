@@ -1,6 +1,5 @@
 <?php 
 require("PHP/Feedback.php");
-// require ("Database.php");
 
 $kritik = $_POST['kritik'];
 $saran = $_POST['saran'];

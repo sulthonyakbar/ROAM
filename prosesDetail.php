@@ -1,6 +1,5 @@
 <?php 
 require("PHP/Detail.php");
-// require ("Database.php");
 
 $alamat = $_POST['alamat'];
 $koordinat1 = $_POST['koordinat1'];
