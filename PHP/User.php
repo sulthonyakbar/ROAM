@@ -33,7 +33,8 @@ class User {
     // public function getPengaduan(){
     //     return "$this->pilihan, $this->foto, $this->waktu, $this->tanggal, $this->deskripsi";
     // }
-    
+      
 }
 
 ?>
+
