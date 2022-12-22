@@ -7,5 +7,4 @@ $rating = $_POST['rating'];
 
 $feedback = new Feedback($kritik, $saran, $rating);
 $feedback->addFeedback();
-
 ?>
